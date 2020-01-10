@@ -1,0 +1,34 @@
+{
+    "name": "willyw2k/bladesvg",
+    "description": "laravel blade svg directive",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "willy willian",
+            "email": "willy.willian@hotmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.3|^6.0|^7.0",
+        "illuminate/filesystem": "^5.3|^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BladeSvg\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5",
+        "mockery/mockery": "^0.9.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BladeSvg\\BladeSvgServiceProvider"
+            ]
+        }
+    }
+}
