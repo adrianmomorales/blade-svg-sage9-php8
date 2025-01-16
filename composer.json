@@ -1,5 +1,5 @@
 {
-    "name": "willyw2k/blade-svg",
+    "name": "adrianmomorales/blade-svg-sage9-php8",
     "description": "laravel blade svg directive",
     "license": "MIT",
     "authors": [
@@ -9,8 +9,8 @@
         }
     ],
     "require": {
-        "illuminate/support": "^5.3|^6.0|^7.0",
-        "illuminate/filesystem": "^5.3|^6.0|^7.0"
+        "illuminate/support": "^5.3|^6.0|^7.0|^8.0",
+        "illuminate/filesystem": "^5.3|^6.0|^7.0|^8.0"
     },
     "autoload": {
         "psr-4": {
